@@ -1,6 +1,11 @@
 TODO
 
+
+
 Merge JIS and Compass Rose Overlay
+Clean Respository
+
+Fix Bearing function
 
 Add a box for user to type lat long -> return distance/bearing
 
