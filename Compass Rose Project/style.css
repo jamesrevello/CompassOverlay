@@ -1,0 +1,16 @@
+#compass-overlay-container {
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    z-index: 999999; /* ensure it's on top of everything */
+    cursor: move;
+    display: none;
+    transform-origin: center center; /* for scaling */
+  }
+  
+  #compass-image {
+    width: 400px;
+    height: 400px;
+    user-select: none;
+    pointer-events: none; /* so we don't interfere with dragging on the container */
+  }
